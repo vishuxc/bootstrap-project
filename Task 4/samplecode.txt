@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>port</title>
+    <link rel="stylesheet" href="./Asset/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <header class="bg-dark text-white text-center py-5">
+        <h1 class="display-3"> Vishz Portfolio</h1>
+        <p class="lead">Fullstack developer|React.js|MySQL</p>
+    </header>
+    <section class="container py-5 d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLupdWpbKkEH4Ugx62ca2xdvsrNjbp2OeX5A&s" alt="Profile Picture" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8">
+                <h2>About Me</h2>
+                <p>Hello! I'm Vishz, a passionate Fullstack Developer with expertise in React.js and MySQL. I love creating dynamic and responsive web applications.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5">
+
+        <h2 class="text-center">skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>React.js</h4>
+                        <p>Frontend Library</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Node.js</h4>
+                        <p>Backend Library</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>MySQL</h4>
+                        <p>Database</p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section class="container py5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxI98SRnNpq4BMYoD7dfJmoMXhwr-fgUZ0g&s" alt="Project 1" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Project 1</h5>
+                        <p>Machine learning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="data:image/png;base64,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" alt="Project 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5>React Js</h5>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSncP7Qf4gEascZFXx80x5nA1ZhCovnLFEiEw&s" alt="Project 3" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Project 3</h5>
+                        <p>web development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="" class="p-4 shadow rounded bg-white">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" rows="4" placeholder="Your message"></textarea>
+                        </div>
+                        <button class="btn btn-primary w-100">Send</button>
+                    </form>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .contact-section {
+            background: #f8f9fa;
+        }
+        .form-control {
+            border-radius: 8px;
+        }
+        .btn-primary {
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .shadow {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    
+    <script src="./Asset/js/bootstrap.min.js"></script>
+    <script src="./Asset/js/jquery.min.js"></script>
+    <script src="./Asset/js/bootstrap.min.js"></script>
+</body>
+</html>
